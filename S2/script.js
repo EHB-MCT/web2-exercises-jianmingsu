@@ -23,7 +23,7 @@ let pokemons = [];
                     
                         <div>
                         <h1>${data.results[i].name}</h1>
-                        <img src="${data.results[i].front_default}">
+                        <img src="${data.sprites.front_default}">
                         <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png">
                         <p>${data.results[i].this.name}</p>
                         </div>
